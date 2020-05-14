@@ -11,7 +11,7 @@ import NavBarInfo from './NavBarInfo'
                 <img src='Bitmap.png'  alt = 'logo'/>
                 <img src = 'Bitmap-1.png' alt = 'log-text' />
             </div>
-            < SearchBar />
+            < SearchBar onFormSumbit = {props.onFormSumbit}/>
             <div className = 'nav-bar-info col-4 row'>
                 <NavBarInfo src =  {AppleStore} />
                 <NavBarInfo src = {GoogleStore}/>

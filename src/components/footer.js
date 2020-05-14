@@ -5,7 +5,9 @@ const Footer = (props)=>{
         <div className = 'footer row'>
             <div className = 'logo col-1'></div>
             <div className = 'body col-4 row'>
-                <div className = 'col-4'></div>
+                <div className = 'col-4'>
+                    
+                </div>
                 <div className = 'col-4'></div>
             </div>
             <div className = 'tail col-1'> </div>
