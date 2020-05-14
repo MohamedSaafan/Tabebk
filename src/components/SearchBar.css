@@ -1,0 +1,28 @@
+.search-bar{
+    margin-left: 30px;
+   
+
+}
+.search-bar form{
+    display: flex;
+    justify-content: flex-end;
+}
+.search-bar input[type='text']{
+    width: 81%;
+    height: 37px;
+    font-family:'Arial, FontAwesome' !important;
+    outline: none;
+    border: none !important;
+}
+.search-bar input[type = 'submit']{
+    background-color: #125873 !important;
+    border-color: #125873;
+    width: 100px;
+    height: 45px;
+}
+.search-wrapper{
+    width: 70%;
+    height: 45px;
+    display: inline-block;
+    border: 1px solid #125873;
+}

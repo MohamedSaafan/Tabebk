@@ -1,0 +1,113 @@
+.details-info:nth-child(1){
+    position: absolute;
+    top:100%;
+    left: 0;
+    margin:0 20px;
+}
+.details-info:nth-child(2){
+    position: absolute;
+    top:220%;
+    margin-top: 40px;
+    left: 0;
+    margin:0 20px;
+}
+.details-info:nth-child(2) h3{
+    margin-bottom: 40px;
+}
+.details-info > div {
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: bold;
+    width: 18%;
+    height: 100px;
+    position: relative;
+}
+.details-info > div:nth-child(1) {
+    margin-left: 25px;
+}
+.details-info:nth-child(2) > div:nth-child(2) {
+    margin-left: 25px;
+}
+.details-info >div:nth-child(1) h4{
+    
+    color: #616466;
+}
+.details-info >div:nth-child(2) h4{
+    color:#F6615B;
+}
+.details-info > div:nth-child(3) h4{
+color:#36AD7A;
+}
+.details-info > div:nth-child(4) h4{
+color:#2699FB;
+}
+.details-info > div:after{
+    content: '';
+    height: 90px;
+    background-color: #EFF0F0;
+    width: 2px;
+    position: absolute;
+    top:-5%;
+    left: -22%;
+}
+.details-info > div > h4{
+    font-size: 16px;
+}
+.details-info > div:nth-child(1)::after{
+    height: 0;
+    width: 0;
+}
+.details-info:nth-child(2) > div:nth-child(2)::after{
+    height: 0;
+    width: 0;
+}
+.details-info hr{
+    display: block;
+    height: 2px;
+    width: 100%;
+}
+.details-info-body{
+    position: absolute;
+    top:400%;
+    left: 43px;
+
+}
+.details-info-body a{
+    text-decoration: underline !important;
+    color: #3DCDE2 !important;
+    margin: 10px 0;
+}
+.details-info-body h4{
+    margin: 20px 0;
+}
+.details-info-body p{
+    margin: 15px 0;
+}
+.latest-news-footer{
+    position: absolute;
+    top: 920%;
+    left: 5%;
+}
+.latest-news-footer > div{
+    display: inline-block;
+    margin: 8px;
+}
+.latest-news-footer > div > .circle{
+    display: inline-block;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+.latest-news-footer > div:nth-child(1) > .circle{
+  
+    background-color: #F45650;
+}
+.latest-news-footer > div:nth-child(2) > .circle{
+  
+    background-color: #FF9F0C;
+}
+.latest-news-footer > div:nth-child(3) > .circle{
+  
+    background-color: #2699FB;
+}
